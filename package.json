@@ -4,18 +4,19 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "npx serve -s dist -l $PORT",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "vite": "^6.2.0",
-	"react": "^19.1.1",
-	"react-dom": "^19.1.1"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "~5.8.2"
-}
+  }
 }
