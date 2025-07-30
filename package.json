@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+	"start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "vite": "^6.2.0",
@@ -16,10 +17,5 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "~5.8.2",
-  },
-  "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "start": "serve -s dist -l $PORT"
 }
 }
