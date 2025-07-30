@@ -1,0 +1,5 @@
+{
+  "name": "Analisador de Relatório de SLA SD-WAN",
+  "description": "Uma ferramenta para analisar relatórios de disponibilidade de SLA da solução SD-WAN exportados do FortiAnalyzer. Permite configurar limiares de SLA e identifica dispositivos fora de conformidade.",
+  "requestFramePermissions": []
+}
